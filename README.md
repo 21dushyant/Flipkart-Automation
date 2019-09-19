@@ -1,5 +1,5 @@
 # Flipkart-Automation
-******************************************************************LOCUS ASSIGNMENT README FILE******************************************************************
+******************************************************************README FILE******************************************************************
 Technologies and Frameworks used : JAVA, Selenium, TestNG
 Tools used : Eclipse
 Repository handler : Maven
