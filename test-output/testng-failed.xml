@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="locus.assignment.listeners.TestListenerClass"/>
+  </listeners>
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="locus.assignment.runner.TestSuiteRunner">
+        <methods>
+          <include name="selectBrandOnSearchResultsPage" invocation-numbers="0"/>
+          <include name="searchItemOnHomePage"/>
+          <include name="selectProductAndSelectProductDetailsPageAndBuyProduct"/>
+          <include name="applyFilterOnSearchResultsPage"/>
+          <include name="navigateToHomeAndClosePopUp"/>
+        </methods>
+      </class> <!-- locus.assignment.runner.TestSuiteRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

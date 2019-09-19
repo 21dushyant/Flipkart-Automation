@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\Users\LOKESH KR GAUR\eclipse-workspace3\locus.assignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="locus.assignment.runner.TestSuiteRunner" hash-for-method="applyFilterOnSearchResultsPage(2000)">applyFilterOnSearchResultsPage(2000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="locus.assignment.runner.TestSuiteRunner" hash-for-method="navigateToHomeAndClosePopUp(ChromeDriver)">navigateToHomeAndClosePopUp(ChromeDriver)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="locus.assignment.runner.TestSuiteRunner" hash-for-method="searchItemOnHomePage(shoes)">searchItemOnHomePage(shoes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="locus.assignment.runner.TestSuiteRunner" hash-for-method="selectBrandOnSearchResultsPage(Puma)">selectBrandOnSearchResultsPage(Puma)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="locus.assignment.runner.TestSuiteRunner" hash-for-method="selectProductAndSelectProductDetailsPageAndBuyProduct(9)">selectProductAndSelectProductDetailsPageAndBuyProduct(9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">locus.assignment.runner.TestSuiteRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyFilterOnSearchResultsPage(2000)">
+                  </a> <!-- applyFilterOnSearchResultsPage(2000) -->
+                  <span class="method-name">applyFilterOnSearchResultsPage</span>
+                  <span class="parameters">(2000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToHomeAndClosePopUp(ChromeDriver)">
+                  </a> <!-- navigateToHomeAndClosePopUp(ChromeDriver) -->
+                  <span class="method-name">navigateToHomeAndClosePopUp</span>
+                  <span class="parameters">(ChromeDriver)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchItemOnHomePage(shoes)">
+                  </a> <!-- searchItemOnHomePage(shoes) -->
+                  <span class="method-name">searchItemOnHomePage</span>
+                  <span class="parameters">(shoes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectBrandOnSearchResultsPage(Puma)">
+                  </a> <!-- selectBrandOnSearchResultsPage(Puma) -->
+                  <span class="method-name">selectBrandOnSearchResultsPage</span>
+                  <span class="parameters">(Puma)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProductAndSelectProductDetailsPageAndBuyProduct(9)">
+                  </a> <!-- selectProductAndSelectProductDetailsPageAndBuyProduct(9) -->
+                  <span class="method-name">selectProductAndSelectProductDetailsPageAndBuyProduct</span>
+                  <span class="parameters">(9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Users\LOKESH KR GAUR\eclipse-workspace3\locus.assignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;locus.assignment.listeners.TestListenerClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;locus.assignment.runner.TestSuiteRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'selectProductAndSelectProductDetailsPageAndBuyProduct')
+data.setCell(0, 2, 'locus.assignment.runner.TestSuiteRunner')
+data.setCell(0, 3, 48631);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectBrandOnSearchResultsPage')
+data.setCell(1, 2, 'locus.assignment.runner.TestSuiteRunner')
+data.setCell(1, 3, 28015);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'navigateToHomeAndClosePopUp')
+data.setCell(2, 2, 'locus.assignment.runner.TestSuiteRunner')
+data.setCell(2, 3, 23094);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchItemOnHomePage')
+data.setCell(3, 2, 'locus.assignment.runner.TestSuiteRunner')
+data.setCell(3, 3, 12448);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'applyFilterOnSearchResultsPage')
+data.setCell(4, 2, 'locus.assignment.runner.TestSuiteRunner')
+data.setCell(4, 3, 1507);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchItemOnHomePage(shoes)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Search Item Entered for Searching</span>
+                <span class="reporter-method-output">First Search Item is selected from drop down</span>
+                <span class="reporter-method-output">SearchResultsPage initialised</span>
+                <span class="reporter-method-output">Item Searched Properly and with correct Number of Results</span>
+                <span class="reporter-method-output">searchItemOnHomePage is Successfull</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">selectProductAndSelectProductDetailsPageAndBuyProduct(9)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Image displayed.</span>
+                <span class="reporter-method-output">Price ₹1,418 displayed.</span>
+                <span class="reporter-method-output">Image displayed.</span>
+                <span class="reporter-method-output">Image displayed.</span>
+                <span class="reporter-method-output">Image displayed.</span>
+                <span class="reporter-method-output">Image displayed.</span>
+                <span class="reporter-method-output">Image displayed.</span>
+                <span class="reporter-method-output">Image displayed.</span>
+                <span class="reporter-method-output">Image displayed.</span>
+                <span class="reporter-method-output">Image displayed.</span>
+                <span class="reporter-method-output">Size 6 displayed.</span>
+                <span class="reporter-method-output">Size 7 displayed.</span>
+                <span class="reporter-method-output">Size 8 displayed.</span>
+                <span class="reporter-method-output">Size 9 displayed.</span>
+                <span class="reporter-method-output">Size 10 displayed.</span>
+                <span class="reporter-method-output">Size 11 displayed.</span>
+                <span class="reporter-method-output">Product size is Clicked</span>
+                <span class="reporter-method-output">CheckOut for Product Started</span>
+                <span class="reporter-method-output">CheckOut Page is Initialised</span>
+                <span class="reporter-method-output">selectProductAndSelectProductDetailsPageAndBuyProduct is Successfull</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">applyFilterOnSearchResultsPage(2000)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">MaxFilter Applied</span>
+                <span class="reporter-method-output">applyFilterOnSearchResultsPage is Successfull</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">selectBrandOnSearchResultsPage(Puma)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Brand is selected</span>
+                <span class="reporter-method-output">First result is of Puma</span>
+                <span class="reporter-method-output">1th image =https://rukminim1.flixcart.com/image/495/594/jvtujrk0/shoe/p/z/5/371505-7-puma-peacoat-vibrant-orange-original-imafggpehhdcvdjq.jpeg?q=50 is displayed.</span>
+                <span class="reporter-method-output">2th image =https://rukminim1.flixcart.com/image/495/594/jvv9zm80/shoe/n/4/6/371970-8-0-puma-white-indigo-bunting-original-imafghwqmxjbgbyp.jpeg?q=50 is displayed.</span>
+                <span class="reporter-method-output">3th image =https://rukminim1.flixcart.com/image/495/594/jqfinww0/shoe/6/v/f/37082703-ss-19-9-puma-black-quarry-original-imafcg27tdgftkdh.jpeg?q=50 is displayed.</span>
+                <span class="reporter-method-output">4th image =https://rukminim1.flixcart.com/image/495/594/jc7z0y80/shoe/a/4/f/36777401-9-puma-black-high-risk-red-original-imaffeewxwfndkby.jpeg?q=50 is displayed.</span>
+                <span class="reporter-method-output">First Product from search results is clicked</span>
+                <span class="reporter-method-output">ProductDetailsPage initialised</span>
+                <span class="reporter-method-output">selectBrandOnSearchResultsPage is Successfull</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">navigateToHomeAndClosePopUp(ChromeDriver)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">HomePage Initialized</span>
+                <span class="reporter-method-output">HomePage URL is reached</span>
+                <span class="reporter-method-output">LoginPopup Closed</span>
+                <span class="reporter-method-output">navigateToHomeAndClosePopUp is Successfull</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">locus.assignment.runner.TestSuiteRunner</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">navigateToHomeAndClosePopUp(ChromeDriver)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchItemOnHomePage(shoes)</span>
+                <span class="method-start">23107 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">applyFilterOnSearchResultsPage(2000)</span>
+                <span class="method-start">35560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectBrandOnSearchResultsPage(Puma)</span>
+                <span class="method-start">37074 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectProductAndSelectProductDetailsPageAndBuyProduct(9)</span>
+                <span class="method-start">65092 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

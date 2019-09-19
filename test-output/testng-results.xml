@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Started]]>
+    </line>
+    <line>
+      <![CDATA[navigateToHomeAndClosePopUp Started]]>
+    </line>
+    <line>
+      <![CDATA[HomePage Initialized]]>
+    </line>
+    <line>
+      <![CDATA[HomePage URL is reached]]>
+    </line>
+    <line>
+      <![CDATA[LoginPopup Closed]]>
+    </line>
+    <line>
+      <![CDATA[navigateToHomeAndClosePopUp is Successfull]]>
+    </line>
+    <line>
+      <![CDATA[searchItemOnHomePage Started]]>
+    </line>
+    <line>
+      <![CDATA[Search Item Entered for Searching]]>
+    </line>
+    <line>
+      <![CDATA[First Search Item is selected from drop down]]>
+    </line>
+    <line>
+      <![CDATA[SearchResultsPage initialised]]>
+    </line>
+    <line>
+      <![CDATA[Item Searched Properly and with correct Number of Results]]>
+    </line>
+    <line>
+      <![CDATA[searchItemOnHomePage is Successfull]]>
+    </line>
+    <line>
+      <![CDATA[applyFilterOnSearchResultsPage Started]]>
+    </line>
+    <line>
+      <![CDATA[MaxFilter Applied]]>
+    </line>
+    <line>
+      <![CDATA[applyFilterOnSearchResultsPage is Successfull]]>
+    </line>
+    <line>
+      <![CDATA[selectBrandOnSearchResultsPage Started]]>
+    </line>
+    <line>
+      <![CDATA[Brand is selected]]>
+    </line>
+    <line>
+      <![CDATA[First result is of Puma]]>
+    </line>
+    <line>
+      <![CDATA[1th image =https://rukminim1.flixcart.com/image/495/594/jvtujrk0/shoe/p/z/5/371505-7-puma-peacoat-vibrant-orange-original-imafggpehhdcvdjq.jpeg?q=50 is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[2th image =https://rukminim1.flixcart.com/image/495/594/jvv9zm80/shoe/n/4/6/371970-8-0-puma-white-indigo-bunting-original-imafghwqmxjbgbyp.jpeg?q=50 is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[3th image =https://rukminim1.flixcart.com/image/495/594/jqfinww0/shoe/6/v/f/37082703-ss-19-9-puma-black-quarry-original-imafcg27tdgftkdh.jpeg?q=50 is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[4th image =https://rukminim1.flixcart.com/image/495/594/jc7z0y80/shoe/a/4/f/36777401-9-puma-black-high-risk-red-original-imaffeewxwfndkby.jpeg?q=50 is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[First Product from search results is clicked]]>
+    </line>
+    <line>
+      <![CDATA[ProductDetailsPage initialised]]>
+    </line>
+    <line>
+      <![CDATA[selectBrandOnSearchResultsPage is Successfull]]>
+    </line>
+    <line>
+      <![CDATA[selectProductAndSelectProductDetailsPageAndBuyProduct Started]]>
+    </line>
+    <line>
+      <![CDATA[Image displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Price ₹1,418 displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Image displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Image displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Image displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Image displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Image displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Image displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Image displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Image displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Size 6 displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Size 7 displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Size 8 displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Size 9 displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Size 10 displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Size 11 displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Product size is Clicked]]>
+    </line>
+    <line>
+      <![CDATA[CheckOut for Product Started]]>
+    </line>
+    <line>
+      <![CDATA[CheckOut Page is Initialised]]>
+    </line>
+    <line>
+      <![CDATA[selectProductAndSelectProductDetailsPageAndBuyProduct is Successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="113768" started-at="2019-07-21T19:25:12Z" finished-at="2019-07-21T19:27:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="113768" started-at="2019-07-21T19:25:12Z" finished-at="2019-07-21T19:27:06Z">
+      <class name="locus.assignment.runner.TestSuiteRunner">
+        <test-method status="PASS" signature="navigateToHomeAndClosePopUp(java.lang.String)[pri:0, instance:locus.assignment.runner.TestSuiteRunner@cc285f4]" name="navigateToHomeAndClosePopUp" duration-ms="23094" started-at="2019-07-22T00:55:12Z" data-provider="browserDataProvider" finished-at="2019-07-22T00:55:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChromeDriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[HomePage Initialized]]>
+            </line>
+            <line>
+              <![CDATA[HomePage URL is reached]]>
+            </line>
+            <line>
+              <![CDATA[LoginPopup Closed]]>
+            </line>
+            <line>
+              <![CDATA[navigateToHomeAndClosePopUp is Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToHomeAndClosePopUp -->
+        <test-method status="PASS" signature="searchItemOnHomePage(java.lang.String)[pri:1, instance:locus.assignment.runner.TestSuiteRunner@cc285f4]" name="searchItemOnHomePage" duration-ms="12448" started-at="2019-07-22T00:55:35Z" data-provider="searchItemDataProvider" depends-on-methods="locus.assignment.runner.TestSuiteRunner.navigateToHomeAndClosePopUp" finished-at="2019-07-22T00:55:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Search Item Entered for Searching]]>
+            </line>
+            <line>
+              <![CDATA[First Search Item is selected from drop down]]>
+            </line>
+            <line>
+              <![CDATA[SearchResultsPage initialised]]>
+            </line>
+            <line>
+              <![CDATA[Item Searched Properly and with correct Number of Results]]>
+            </line>
+            <line>
+              <![CDATA[searchItemOnHomePage is Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchItemOnHomePage -->
+        <test-method status="PASS" signature="applyFilterOnSearchResultsPage(java.lang.String)[pri:2, instance:locus.assignment.runner.TestSuiteRunner@cc285f4]" name="applyFilterOnSearchResultsPage" duration-ms="1507" started-at="2019-07-22T00:55:47Z" data-provider="maxFilterDataProvider" depends-on-methods="locus.assignment.runner.TestSuiteRunner.searchItemOnHomePage" finished-at="2019-07-22T00:55:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[MaxFilter Applied]]>
+            </line>
+            <line>
+              <![CDATA[applyFilterOnSearchResultsPage is Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- applyFilterOnSearchResultsPage -->
+        <test-method status="PASS" signature="selectBrandOnSearchResultsPage(java.lang.String)[pri:3, instance:locus.assignment.runner.TestSuiteRunner@cc285f4]" name="selectBrandOnSearchResultsPage" duration-ms="28015" started-at="2019-07-22T00:55:49Z" data-provider="brandDataProvider" depends-on-methods="locus.assignment.runner.TestSuiteRunner.applyFilterOnSearchResultsPage" finished-at="2019-07-22T00:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Puma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Brand is selected]]>
+            </line>
+            <line>
+              <![CDATA[First result is of Puma]]>
+            </line>
+            <line>
+              <![CDATA[1th image =https://rukminim1.flixcart.com/image/495/594/jvtujrk0/shoe/p/z/5/371505-7-puma-peacoat-vibrant-orange-original-imafggpehhdcvdjq.jpeg?q=50 is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[2th image =https://rukminim1.flixcart.com/image/495/594/jvv9zm80/shoe/n/4/6/371970-8-0-puma-white-indigo-bunting-original-imafghwqmxjbgbyp.jpeg?q=50 is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[3th image =https://rukminim1.flixcart.com/image/495/594/jqfinww0/shoe/6/v/f/37082703-ss-19-9-puma-black-quarry-original-imafcg27tdgftkdh.jpeg?q=50 is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[4th image =https://rukminim1.flixcart.com/image/495/594/jc7z0y80/shoe/a/4/f/36777401-9-puma-black-high-risk-red-original-imaffeewxwfndkby.jpeg?q=50 is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[First Product from search results is clicked]]>
+            </line>
+            <line>
+              <![CDATA[ProductDetailsPage initialised]]>
+            </line>
+            <line>
+              <![CDATA[selectBrandOnSearchResultsPage is Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectBrandOnSearchResultsPage -->
+        <test-method status="PASS" signature="selectProductAndSelectProductDetailsPageAndBuyProduct(java.lang.String)[pri:4, instance:locus.assignment.runner.TestSuiteRunner@cc285f4]" name="selectProductAndSelectProductDetailsPageAndBuyProduct" duration-ms="48631" started-at="2019-07-22T00:56:17Z" data-provider="shoeSizeDataProvider" depends-on-methods="locus.assignment.runner.TestSuiteRunner.selectBrandOnSearchResultsPage" finished-at="2019-07-22T00:57:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Image displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Price ₹1,418 displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Image displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Image displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Image displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Image displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Image displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Image displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Image displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Image displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Size 6 displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Size 7 displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Size 8 displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Size 9 displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Size 10 displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Size 11 displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Product size is Clicked]]>
+            </line>
+            <line>
+              <![CDATA[CheckOut for Product Started]]>
+            </line>
+            <line>
+              <![CDATA[CheckOut Page is Initialised]]>
+            </line>
+            <line>
+              <![CDATA[selectProductAndSelectProductDetailsPageAndBuyProduct is Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectProductAndSelectProductDetailsPageAndBuyProduct -->
+      </class> <!-- locus.assignment.runner.TestSuiteRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

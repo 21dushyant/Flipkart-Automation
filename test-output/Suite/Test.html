@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 22 00:55:12 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>113 seconds (113768 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='locus.assignment.runner.TestSuiteRunner.applyFilterOnSearchResultsPage()'><b>applyFilterOnSearchResultsPage</b><br>Test class: locus.assignment.runner.TestSuiteRunner<br>Parameters: 2000<br/>
+<a href="#Output-213952315" onClick='toggleBox("Output-213952315", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-213952315" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-213952315">
+MaxFilter Applied<br/>
+applyFilterOnSearchResultsPage is Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>locus.assignment.runner.TestSuiteRunner@cc285f4</td></tr>
+<tr>
+<td title='locus.assignment.runner.TestSuiteRunner.navigateToHomeAndClosePopUp()'><b>navigateToHomeAndClosePopUp</b><br>Test class: locus.assignment.runner.TestSuiteRunner<br>Parameters: ChromeDriver<br/>
+<a href="#Output-442402785" onClick='toggleBox("Output-442402785", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-442402785" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-442402785">
+HomePage Initialized<br/>
+HomePage URL is reached<br/>
+LoginPopup Closed<br/>
+navigateToHomeAndClosePopUp is Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>locus.assignment.runner.TestSuiteRunner@cc285f4</td></tr>
+<tr>
+<td title='locus.assignment.runner.TestSuiteRunner.searchItemOnHomePage()'><b>searchItemOnHomePage</b><br>Test class: locus.assignment.runner.TestSuiteRunner<br>Parameters: shoes<br/>
+<a href="#Output-394035784" onClick='toggleBox("Output-394035784", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-394035784" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-394035784">
+Search Item Entered for Searching<br/>
+First Search Item is selected from drop down<br/>
+SearchResultsPage initialised<br/>
+Item Searched Properly and with correct Number of Results<br/>
+searchItemOnHomePage is Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>locus.assignment.runner.TestSuiteRunner@cc285f4</td></tr>
+<tr>
+<td title='locus.assignment.runner.TestSuiteRunner.selectBrandOnSearchResultsPage()'><b>selectBrandOnSearchResultsPage</b><br>Test class: locus.assignment.runner.TestSuiteRunner<br>Parameters: Puma<br/>
+<a href="#Output-1674377730" onClick='toggleBox("Output-1674377730", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1674377730" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1674377730">
+Brand is selected<br/>
+First result is of Puma<br/>
+1th image =https://rukminim1.flixcart.com/image/495/594/jvtujrk0/shoe/p/z/5/371505-7-puma-peacoat-vibrant-orange-original-imafggpehhdcvdjq.jpeg?q=50 is displayed.<br/>
+2th image =https://rukminim1.flixcart.com/image/495/594/jvv9zm80/shoe/n/4/6/371970-8-0-puma-white-indigo-bunting-original-imafghwqmxjbgbyp.jpeg?q=50 is displayed.<br/>
+3th image =https://rukminim1.flixcart.com/image/495/594/jqfinww0/shoe/6/v/f/37082703-ss-19-9-puma-black-quarry-original-imafcg27tdgftkdh.jpeg?q=50 is displayed.<br/>
+4th image =https://rukminim1.flixcart.com/image/495/594/jc7z0y80/shoe/a/4/f/36777401-9-puma-black-high-risk-red-original-imaffeewxwfndkby.jpeg?q=50 is displayed.<br/>
+First Product from search results is clicked<br/>
+ProductDetailsPage initialised<br/>
+selectBrandOnSearchResultsPage is Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>locus.assignment.runner.TestSuiteRunner@cc285f4</td></tr>
+<tr>
+<td title='locus.assignment.runner.TestSuiteRunner.selectProductAndSelectProductDetailsPageAndBuyProduct()'><b>selectProductAndSelectProductDetailsPageAndBuyProduct</b><br>Test class: locus.assignment.runner.TestSuiteRunner<br>Parameters: 9<br/>
+<a href="#Output-231483365" onClick='toggleBox("Output-231483365", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-231483365" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-231483365">
+Image displayed.<br/>
+Price ?1,418 displayed.<br/>
+Image displayed.<br/>
+Image displayed.<br/>
+Image displayed.<br/>
+Image displayed.<br/>
+Image displayed.<br/>
+Image displayed.<br/>
+Image displayed.<br/>
+Image displayed.<br/>
+Size 6 displayed.<br/>
+Size 7 displayed.<br/>
+Size 8 displayed.<br/>
+Size 9 displayed.<br/>
+Size 10 displayed.<br/>
+Size 11 displayed.<br/>
+Product size is Clicked<br/>
+CheckOut for Product Started<br/>
+CheckOut Page is Initialised<br/>
+selectProductAndSelectProductDetailsPageAndBuyProduct is Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>locus.assignment.runner.TestSuiteRunner@cc285f4</td></tr>
+</table><p>
+</body>
+</html>
